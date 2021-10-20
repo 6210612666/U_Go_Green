@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" c.ontent="width=device-width, initial-scale=1.0">
+    <title>U Go Green</title>
+
+    <link rel="Stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <a href="#" onclick="showMore();">
+            <img src="{% static 'images/yok.jpg' %}">
+        </a>
+
+        <div class="more" id="more">
+            <li class="more-item"><ion-icon name="settings-sharp"></ion-icon>Setting</li>
+            <li class="more-item"><ion-icon name="log-out-outline"></ion-icon>Logout</li>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -4,4 +4,4 @@ from .models import *
 
 def home(request):
     # context = {}
-    return render(request, "invest/home.html")
+    return render(request, "invest/UgoNav.html")
